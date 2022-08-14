@@ -5,54 +5,200 @@ engine: ejs
 current: index
 ---
 
-<div class="container">
-  <h1 class="index__h1">這是一段話</h1>
-  <div class="alert alert-primary" role="alert">
-    A simple primary alert—check it out!
-  </div>
-  <div class="alert alert-secondary" role="alert">
-    A simple secondary alert—check it out!
-  </div>
-  <div class="alert alert-success" role="alert">
-    A simple success alert—check it out!
-  </div>
-  <div class="alert alert-danger" role="alert">
-    A simple danger alert—check it out!
-  </div>
-  <div class="alert alert-warning" role="alert">
-    A simple warning alert—check it out!
-  </div>
-  <div class="alert alert-info" role="alert">
-    A simple info alert—check it out!
-  </div>
-  <div class="alert alert-light" role="alert">
-    A simple light alert—check it out!
-  </div>
-  <div class="alert alert-dark" role="alert">
-    A simple dark alert—check it out!
-  </div>
-</div>
+<div class="assign-container d-flex flex-column justify-content-between vh-100">
+  <div>
+    <header class="d-flex justify-content-between pt-twice pb-twice">
+      <div class="title d-flex align-items-center">
+        <h1 class="h2 m-0 ">Assignment</h1>
+        <p class="font-size-base m-0 pl-50">All Courses</p>
+        <a href="#">
+          <span class="material-icons text-primary pl-9 vertical-align">
+            expand_more
+          </span>
+        </a>
+      </div>
+      <div class="icon d-flex align-items-center">
+        <a href="#">
+          <span class="material-icons">
+            search
+          </span>
+        </a>
+        <a href="#">
+          <span class="material-icons ms-4">
+            notifications_active
+          </span>
+        </a>
+      </div>
+    </header>
+    <main>
+      <div class="d-flex justify-content-between">
+        <div class="all-item d-flex mb-6 ">
+          <p class="font-size-base m-0 ">All (4)</p>
+          <a href="#">
+            <span class="material-icons text-primary pl-9 vertical-align">
+              expand_more
+            </span>
+          </a>
+        </div>
+        <div class="comments">2 comments</div>
+      </div>
 
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
-</button>
 
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      <div class="main-section d-flex justify-content-between">
+        <div class="list-group list-group-l-c">
+          <a href="#" class="list-group-item list-group-item-action">
+            <div class="content-title-c d-flex justify-content-between align-items-center">
+              <p>Chapter Assignment 2</p>
+              <time>4 hrs ago</time>
+            </div>
+            <div class="content-c d-flex justify-content-between align-items-center">
+              <h4>Please check this file…</h4>
+              <h2 class="name-c">Emily Wang</h2>
+            </div>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action">
+            <div class="content-title-c d-flex justify-content-between align-items-center">
+              <p>Chapter Assignment 1</p>
+              <time>12 hrs ago</time>
+            </div>
+            <div class="content-c d-flex justify-content-between align-items-center">
+              <h4>My Homework</h4>
+              <h2 class="name-c">David Xu</h2>
+            </div>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action">
+            <div class="content-title-c d-flex justify-content-between align-items-center">
+              <p>Final Assignment</p>
+              <time>18 hrs ago</time>
+            </div>
+            <div class="content-c d-flex justify-content-between align-items-center">
+              <h4>Have a problem with this…</h4>
+              <h2 class="name-c">Tony Wei</h2>
+            </div>
+          </a>
+          <a href="#" class="list-group-item list-group-item-action ">
+            <div class="content-title-c d-flex justify-content-between align-items-center">
+              <p>Final Assignment</p>
+              <time>19 hrs ago</time>
+            </div>
+            <div class="content-c d-flex justify-content-between align-items-center">
+              <h4>Did I do it right?</h4>
+              <h2 class="name-c">Christina Lin</h2>
+            </div>
+          </a>
+        </div>
+        <div class="card list-group-r-c">
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              <div class="question-title">
+                <h4 class="h6">Chapter Assignment 2 / HTML&CSS</h4>
+                <p>Please check this file for me, thanks!</p>
+              </div>
+              <a href="#">
+                <span class="material-icons">
+                  more_vert
+                </span>
+              </a>
+            </li>
+            <li class="list-group-item d-flex  bb-0">
+              <div class="me-2 w40-c"><img class="img-fluid rounded-circle w40-c h40-c"
+                  src="./assets/images/emilywang.jpeg" alt="man">
+              </div>
+              <div class="bb-1">
+                <ul class="list-unstyled">
+                  <li>Emily Wang</li>
+                  <li><time>10:38 AM (4 hours ago)</time></li>
+                  <li class="ff-lato context">
+                    <p>Hi Teacher, the attached file is my homework of chapter 2. And here comes a
+                      question: Why in the
+                      following code the height of the <span class="code"> div </span> is bigger than the height of the
+                      <span class="code"> img </span>
+                      ? There is a gap below the
+                      image, but it doesn’t seems to be a padding/margin.
+                      <br />
+                      What is the gap or extra space below image?
+                    </p>
+                  </li>
+                  <li class="mt-3 mb-3">
+                    <button class="btn btn-light btn-text-align-c  pt-2 pb-2">
+                      <span class="material-icons vertical-align me-2">
+                        attach_file
+                      </span>
+                      HW-2-David.zip</button>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class="list-group-item d-flex">
+              <div class="me-2 w40-c"><img class="img-fluid rounded-circle w40-c h40-c"
+                  src="./assets/images/andychen.jpeg" alt="man">
+              </div>
+              <div>
+                <ul class="list-unstyled">
+                  <li class="d-flex justify-content-between ">Andy Chen (You)
+                    <div class="icon">
+                      <a href="#"><span class="material-icons vertical-align">star_border</span></a>
+                      <a href="#">
+                        <span class="material-icons vertical-align ms-4">
+                          create
+                        </span>
+                      </a>
+                    </div>
+                  </li>
+                  <li><time>13:24 AM (1 hours ago)</time></li>
+                  <li class="ff-lato context">
+                    <p>
+                      Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that
+                      a,
+                      b, c and d sit on. There is space below that line for the descenders you find on letters like g,
+                      j,
+                      p and q.
+                      <br />
+                      <br />
+                      You can:
+                      <br />
+                    <ul class="list-unstyled">
+                      <li class="ff-lato">
+                        • adjust the <span class="code"> vertical-align </span> of the image to position it elsewhere
+                        (e.g. the
+                        <span class="code">middle</span> ) or
+                      </li>
+                      <li class="ff-lato">• change the <span class="code"> display </span> so it isn’t inline.</li>
+                    </ul>
+                    </p>
+                  </li>
+
+                </ul>
+              </div>
+            </li>
+          </ul>
+
+        </div>
       </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
+  </div>
+
+
+  <div class="footer footer-item d-flex justify-content-between align-items-center">
+    <div class="arrow d-flex justify-content-end">
+      <a href="#">
+        <span class="material-icons mr-23">
+          chevron_left
+        </span>
+      </a>
+      <a href="#">
+        <span class="material-icons">
+          chevron_right
+        </span>
+      </a>
+    </div>
+    <div class="button-group footer-button">
+      <button class="btn btn-white text-primary border-primary py-2 px-twice">Mark as read</button>
+      <button class="btn btn-primary ms-3 py-2 px-twice">Reply</button>
     </div>
   </div>
+
+
+  </main>
+
 </div>
