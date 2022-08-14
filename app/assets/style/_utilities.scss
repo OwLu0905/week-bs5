@@ -3,9 +3,6 @@
   min-width: 40px;
 }
 
-.w296-c {
-  width: 296px;
-}
 .h40-c {
   height: 40px;
 }
@@ -20,6 +17,7 @@
 .bb-0 {
   border-bottom: 0px solid transparent;
 }
+
 .bb-1 {
   border-bottom: 1px solid $gray-400;
 }
@@ -31,9 +29,7 @@
 .mr-23 {
   margin-right: 23px;
 }
-.lh-33 {
-  line-height: 33px;
-}
+
 .pl-9 {
   padding-left: 9px;
 }
@@ -42,18 +38,16 @@
   padding-left: 50px;
 }
 
-//
-
-.fz-14-c {
-  font-size: 14px;
-}
-
 .pr-202 {
   padding-right: 30%;
 }
 
-.vertical-align {
-  vertical-align: bottom;
+.lh-33 {
+  line-height: 33px;
+}
+
+.fz-14-c {
+  font-size: 14px;
 }
 
 .ff-lato {
@@ -64,12 +58,6 @@
   font-family: "Roboto Mono";
 }
 
-.context {
-  font-size: 14px;
-  margin: 0;
-}
-
-.comments {
-  color: $gray-600;
-  font-size: 12px;
+.vertical-align {
+  vertical-align: bottom;
 }
