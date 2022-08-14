@@ -12483,4 +12483,8 @@ fieldset:disabled .btn {
   padding-bottom: 32px;
 }
 
+.btn-border-gray400-c {
+  border: 1px solid #ced4da;
+}
+
 /*# sourceMappingURL=all.css.map */
